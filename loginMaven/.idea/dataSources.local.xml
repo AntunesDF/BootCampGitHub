@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - hibernateCenas@localhost" uuid="3e10c230-45ab-4c8e-95fe-bccf67db56ec">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>hibernateCenas.*</schema-pattern>
+      <default-schemas>hibernateCenas.*</default-schemas>
+    </data-source>
+  </component>
+</project>

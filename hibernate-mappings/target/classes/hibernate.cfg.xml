@@ -1,0 +1,27 @@
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernateCenas</property>
+        <property name="connection.username">root</property>
+        <!-- JDBC connection pool (use the built-in ) -->
+        <property name="connection.pool_size">1</property>
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+        <!-- DB schema will be updated if needed, do not use in production -->
+        <property name="hbm2ddl.auto">create</property>
+        <!-- Show generated SQL for debug purposes -->
+        <property name="hibernate.show_sql">true</property>
+
+        <mapping resource="many_to_one/Many_to_one.hbm.xml"/>
+        <mapping resource="entity/User.hbm.xml"/>
+        <mapping resource="inheritance/Vehicle.hbm.xml"/>
+        <mapping resource="component/Component.hbm.xml"/>
+        <mapping resource="one_to_one/One_to_one.hbm.xml"/>
+        <mapping resource="many_to_many/Many_to_many.hbm.xml"/>
+        <mapping resource="bidirectional/Bidirectional.hbm.xml"/>
+
+    </session-factory>
+</hibernate-configuration>

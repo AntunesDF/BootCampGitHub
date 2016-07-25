@@ -1,0 +1,11 @@
+org/academiadecodigo/bootcamp/Navigation.class
+org/academiadecodigo/bootcamp/persistence/ConnectionManager.class
+org/academiadecodigo/bootcamp/service/user/JdbcUserService.class
+org/academiadecodigo/bootcamp/Main.class
+org/academiadecodigo/bootcamp/service/ServiceRegistry.class
+org/academiadecodigo/bootcamp/controller/LoginController.class
+org/academiadecodigo/bootcamp/model/User.class
+org/academiadecodigo/bootcamp/service/Service.class
+org/academiadecodigo/bootcamp/controller/LoggedinController.class
+org/academiadecodigo/bootcamp/service/user/UserService.class
+org/academiadecodigo/bootcamp/service/user/MockUserService.class

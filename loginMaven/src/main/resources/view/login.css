@@ -1,0 +1,33 @@
+.root { /* selector */
+    -fx-background-color: azure;
+}
+
+/* class selector (corresponds to the node class name) */
+.button {
+    -fx-background-color: #222222;
+}
+
+/* class selector (custom style class) */
+.button-custom {
+    -fx-background-color: #FFFFFF;
+}
+
+/* ID style selector */
+#label-error {
+    -fx-text-fill: #E31D1A;
+}
+
+/* pseudo-class selector */
+.button:pressed {
+    -fx-background-color: #A61412;
+}
+
+.button {
+    -fx-border-radius: 0;
+    -fx-background-color: #E31D1A;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-pref-width: 120;
+    -fx-pref-height: 40;
+}
+

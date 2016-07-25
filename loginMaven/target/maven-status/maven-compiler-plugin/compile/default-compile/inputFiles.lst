@@ -1,0 +1,11 @@
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/controller/LoggedinController.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/model/User.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/controller/LoginController.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/persistence/ConnectionManager.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/service/user/JdbcUserService.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/service/user/UserService.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/Main.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/service/Service.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/Navigation.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/service/ServiceRegistry.java
+/Users/codecadet/Documents/exercises/loginMaven/src/main/java/org/academiadecodigo/bootcamp/service/user/MockUserService.java

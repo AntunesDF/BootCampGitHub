@@ -1,0 +1,56 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.head_inner:hover {
+    color: #3399ff;
+}
+
+#profile_picture {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+.summary {
+    height: auto;
+    width: auto;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.summary:hover {
+    height: auto;
+    width: auto;
+    padding: 1px;
+    border: 1px solid #3399ff;
+}
+
+.social_buttons {
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#fb_button {
+    display: inline-block;
+    opacity: 0.5;
+}
+
+#git_button {
+    display: inline-block;
+    opacity: 0.5;
+}
+
+#fb_button:hover {
+    opacity: 1.0;
+}
+
+#git_button:hover {
+    opacity: 1.0;
+}

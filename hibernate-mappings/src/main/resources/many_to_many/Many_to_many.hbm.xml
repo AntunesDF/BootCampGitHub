@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="org.academiadecodigo.bootcamp.many_to_many.SecurityGroup" table="sgroup">
+
+        <id name="id" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="name"/>
+        <set name="userses" table="user_group" cascade="all">
+            <key column="group_id"/>
+            <many-to-many class="org.academiadecodigo.bootcamp.many_to_many.Users" column="user_id" />
+        </set>
+    </class>
+
+    <class name="org.academiadecodigo.bootcamp.many_to_many.Users" table="user">
+
+        <id name="id" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="username" column="username"/>
+        <property name="password" column="password"/>
+
+    </class>
+
+</hibernate-mapping>
